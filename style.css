@@ -302,7 +302,7 @@ nav .logo img {
   border-radius: 10px;
   position: relative;
 }
-.burg-img input{
+.burg-img input {
   position: absolute;
   left: 10px;
   top: 10px;
@@ -317,17 +317,17 @@ nav .logo img {
   align-items: center;
   justify-content: space-between;
 }
-.box h4{
+.box h4 {
   margin: 0.5rem 0;
 }
-.price p{
+.price p {
   font-weight: bold;
   color: #00ca4e;
   display: inline-flex;
   align-items: center;
   gap: 0.3rem;
 }
-.price p span{
+.price p span {
   font-size: 0.7rem;
   text-decoration: line-through;
   color: rgb(183, 176, 176) !important;
@@ -338,7 +338,7 @@ nav .logo img {
 .price p small {
   color: rgb(183, 176, 176) !important;
 }
-.box .btns{
+.box .btns {
   display: flex;
   align-items: center;
   gap: 0.6rem;
@@ -356,7 +356,7 @@ nav .logo img {
   background-color: #00ca4e;
   border: none;
   color: white;
-   border-radius: 5px;
+  border-radius: 5px;
 }
 .payment {
   width: 24%;
@@ -390,31 +390,32 @@ nav .logo img {
   background-color: #e9e5e5;
   height: 3rem;
   padding: 0.3rem 0;
-   border-radius: 10px;
+  border-radius: 10px;
 }
-.order-item .item-img img{
+.order-item .item-img img {
   width: 3rem;
   object-fit: cover;
 }
-.details span{
+.details span {
   color: #00ca4e;
 }
-.order{
+.order {
   flex: 2;
   border: 2px dashed #c2bdbd;
   display: flex;
   flex-direction: column;
-   background-color: #e9e5e5;
+  background-color: #e9e5e5;
 }
-.summary{
+.summary {
   flex: 1;
   padding: 0.6rem;
 }
-.summary p{
+.summary p {
   font-size: 0.8rem;
-   color: #575454;
+  color: #575454;
 }
-.summary .sub-total, .tax{
+.summary .sub-total,
+.tax {
   width: 100%;
   display: inline-flex;
   align-items: center;
@@ -422,12 +423,12 @@ nav .logo img {
   font-size: 0.8rem;
   margin-top: 0.4rem;
 }
-.tax{
+.tax {
   border-bottom: 1px solid #c2bdbd;
   padding-bottom: 4px;
 }
-.summary .total strong{
-   width: 100%;
+.summary .total strong {
+  width: 100%;
   display: inline-flex;
   align-items: center;
   justify-content: space-between;
@@ -436,13 +437,13 @@ nav .logo img {
 }
 .method {
   flex: 2;
-   padding: 0.6rem;
+  padding: 0.6rem;
 }
-.method p{
+.method p {
   font-size: 0.8rem;
   color: #575454;
 }
-.payment-img{
+.payment-img {
   display: flex;
   gap: 0.5rem;
   flex-wrap: wrap;
@@ -455,10 +456,10 @@ nav .logo img {
   text-align: center;
   border-radius: 10px;
 }
-.img-box img{
+.img-box img {
   width: 2rem;
 }
-.place{
+.place {
   flex: 1;
   background-color: #00ca4e;
   border: none;
