@@ -102,7 +102,7 @@ nav {
   justify-content: space-between;
 }
 nav .logo {
-  width: 19rem;
+  width: 21rem;
 }
 nav .logo img {
   width: 9rem;
@@ -178,15 +178,16 @@ nav .logo img {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding: 0 1rem 1rem 1rem; 
+    position: sticky;
+    top: 0;
 }
-.left .menus{
-  padding: 0 1rem;
-}
+
 .left .menus .item {
     display: flex;
     align-items: center;
     gap: 0.6rem;
-    padding: 0.6rem 0.8rem;
+    padding: 0.5rem 0.8rem;
     border: 1px solid rgb(199, 194, 194);
     border-radius: 10px;
     margin-bottom: 0.8rem;
@@ -198,6 +199,39 @@ nav .logo img {
   text-decoration: none;
   color: black;
   font-size: 14px;
+}
+.left .info {
+  padding: 1rem;
+  background-color: #f4f2f2;
+  border-radius: 10px;
+}
+
+.info h3 {
+  font-size: 0.8rem;
+  margin: 0.4rem 0;
+}
+.info p{
+  font-size: 0.6rem;
+}
+.info .msg-img{
+  width: 100%;
+  height: 8rem;
+}
+.left .info img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.controller{
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  margin-top: 0.4rem;
+}
+
+.end-arrow{
+  width: 1rem !important;
 }
 .right {
     flex: 5;
