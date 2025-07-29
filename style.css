@@ -291,7 +291,7 @@ nav .logo img {
 .food-box .box {
   width: 18.6rem;
   padding: 1rem;
-  background-color: white;
+  background-color: #fff;
   border-radius: 10px;
 }
 .box .burg-img {
@@ -354,7 +354,8 @@ nav .logo img {
   border-radius: 5px;
 }
 .btns .btn2 {
-  padding: 0.4rem 0;
+  padding: 0.4rem 0
+  ;
   width: 100%;
   background-color: #00ca4e;
   border: none;
